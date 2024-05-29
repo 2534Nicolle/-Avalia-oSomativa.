@@ -1,0 +1,40 @@
+package lpa2;
+import java.util.Scanner;
+public class Estevao {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner (System.in);
+		int Dia;
+		
+		System.out.print("Informar o dia da semana de 1 a 7: ");
+		Dia = ler.nextInt();
+		
+		switch (Dia) {
+		case 1:
+			System.out.println("Hoje é Domingo");
+			break;
+		case 2:
+			System.out.println("Hoje é Segunda");
+			break;
+		case 3:
+			System.out.println("Hoje é Terça");
+			break;
+		case 4:
+			System.out.println("Hoje é Quarta");
+			break;
+		case 5:
+			System.out.println("Hoje é Quinta");
+			break;
+		case 6:
+			System.out.println("Hoje é Sexta");
+			break;
+		case 7:
+			System.out.println("Hoje é Sábado");
+			break;
+		default:
+			System.out.println("Esse dia não existe!");
+		}
+		ler.close();
+	  }
+
+	}
