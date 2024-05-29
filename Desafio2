@@ -4,19 +4,19 @@ import java.util.Scanner;
 public class Endrick {
 
 	public static void main(String[] args) {
-Scanner ler = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 		
-		double Alt,Base,Area;
+		double Alt,Base,Area; //Está declarando as variáveis que será usado
 		
-		System.out.println("Informe o valor da altura: ");
+		System.out.println("Informe o valor da altura: "); //Está pedindo para informar os valores
 		Alt = ler.nextDouble();
 		
 		System.out.println("Informe o valor da base: ");
 		Base = ler.nextDouble();
 		
-		Area = (Alt*Base)/2;
+		Area = (Alt*Base)/2; //Está calculando a área
 		
-		System.out.println("A área desse objeto é: " +Area);
+		System.out.println("A área desse objeto é: " +Area); //Está informando o resultado da operação
 
 	}
 
