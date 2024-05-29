@@ -14,7 +14,7 @@ public class Garrincha {
 		System.out.println("Informe o valor 2: ");
 		valor2= ler.nextDouble();
 		
-		soma = valor1+valor2; //Está sendo mostrado as operações que será utilizado
+		soma = valor1+valor2; //Está executando as operações que será utilizado
 		sub = valor1-valor2;
 		mult = valor1*valor2;
 		div = valor1/valor2;
