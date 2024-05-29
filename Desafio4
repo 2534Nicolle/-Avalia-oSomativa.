@@ -1,0 +1,22 @@
+package lpa2;
+import java.util.Scanner;
+
+public class JonasBrothers {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+		int soma=0; //Declarando as variáveis 
+		int n=0;
+		
+		System.out.println("Selecione 15 números "); //Escolhendo 15 números para executar o código
+		
+		for (int i=0; i<=15; i++) { //Está executando o código até ser informado os 15 números
+			n=ler.nextInt();
+			
+			soma=soma+n; //Somando os números escolhidos
+		}	
+		System.out.println("***************************");
+		System.out.println("A soma dos números é: " + soma); //Informando a soma dos números
+		ler.close();
+	}	
+}
