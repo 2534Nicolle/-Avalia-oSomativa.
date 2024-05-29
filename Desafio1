@@ -6,21 +6,21 @@ public class Garrincha {
 	public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 		
-		double valor1, valor2 ,soma,sub,mult,div;
+		double valor1, valor2 ,soma,sub,mult,div; //Declarando as variáveis para poder realizar os códigos
 		String operacao;
 
-		System.out.println("Informe o valor 1: ");
+		System.out.println("Informe o valor 1: "); //Está sendo pedido para informar o valor e realizar os cálculos
 		valor1= ler.nextDouble();
 		System.out.println("Informe o valor 2: ");
 		valor2= ler.nextDouble();
 		
-		soma = valor1+valor2;
+		soma = valor1+valor2; //Está sendo mostrado as operações que será utilizado
 		sub = valor1-valor2;
 		mult = valor1*valor2;
 		div = valor1/valor2;
 		
-		System.out.println("...............................");
-		System.out.println("A soma dos valores é: " + soma);
+		System.out.println("..............................."); //Para organizar o código
+		System.out.println("A soma dos valores é: " + soma); //Mostra o resultado das operações
 		System.out.println("...............................");
 		System.out.println("A subtração dos valores é: " + sub);
 		System.out.println("...............................");
