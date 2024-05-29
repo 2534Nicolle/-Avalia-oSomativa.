@@ -4,12 +4,12 @@ public class Estevao {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner (System.in);
-		int Dia;
+		int Dia; //Está declarando a variável que utilizará
 		
-		System.out.print("Informar o dia da semana de 1 a 7: ");
+		System.out.print("Informar o dia da semana de 1 a 7: "); //Está pedindo pra informar o número respectivo ao dia da semana
 		Dia = ler.nextInt();
 		
-		switch (Dia) {
+		switch (Dia) { //Está mostrando casos diferentes, onde é respectivo ao dia da semana que o usuário informar ou quando o dia informado não existe
 		case 1:
 			System.out.println("Hoje é Domingo");
 			break;
