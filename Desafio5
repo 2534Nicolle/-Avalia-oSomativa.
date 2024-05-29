@@ -1,0 +1,23 @@
+package lpa2;
+import java.util.Scanner;
+
+public class Carros {
+
+	public static void main(String[] args) {
+		String nome [] = new String [6]; //Está sendo declarado a variável e o limite que o código ira seguir
+		
+		Scanner ler = new Scanner(System.in);
+		
+		for (int i =0; i<6; i++) { //Está mostrando o limite de informações do usuário
+			System.out.println("Informe o nome dos 6 carros " + i + ":"); //Usuário está informando os carros
+			nome[i]= ler.next();
+		}
+		System.out.println("GARAGEM");
+		System.out.println("****************");
+        for (int i =0; i<6; i++) {
+        	  System.out.println(nome[i]); //Os carros estão sendo mostrados no vetor "GARAGEM"  	  	  
+        }
+        
+        }
+        
+	}
