@@ -1,0 +1,23 @@
+package lpa2;
+import java.util.Scanner;
+
+public class Endrick {
+
+	public static void main(String[] args) {
+Scanner ler = new Scanner(System.in);
+		
+		double Alt,Base,Area;
+		
+		System.out.println("Informe o valor da altura: ");
+		Alt = ler.nextDouble();
+		
+		System.out.println("Informe o valor da base: ");
+		Base = ler.nextDouble();
+		
+		Area = (Alt*Base)/2;
+		
+		System.out.println("A área desse objeto é: " +Area);
+
+	}
+
+}
